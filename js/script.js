@@ -8,6 +8,23 @@ for (i = 0; i < navLink.length; i++) {
     });
 }
 
+function toggle(){
+    let to = document.getElementById("toggle");
+    to.classList.toggle("toggleh");
+    let main_tog = document.getElementById("main-menu");
+    main_tog.classList.toggle("nav-active");
+}
+
+let allnavlink = document.querySelectorAll(".navbar .container .mainmenu ul li");
+for(i=0;i<allnavlink.length;i++){
+allnavlink[i].addEventListener("click", function(){
+    let to = document.getElementById("toggle");
+    to.classList.remove("toggleh");
+    let main_tog = document.getElementById("main-menu");
+    main_tog.classList.remove("nav-active");
+});
+}
+
 var cursor_1 = document.querySelector('.cursor-1');
 var cursor_2 = document.querySelector('.cursor-2');
 

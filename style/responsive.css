@@ -1,0 +1,182 @@
+@media (max-width: 1181px) {
+    .container {
+        padding: 0 20px 0 50px;
+    }
+
+    .aboutMe .image::before {
+        width: 150px;
+        height: 150px;
+        top: -19px;
+        left: -19px;
+    }
+
+    .aboutMe .image::after {
+        width: 150px;
+        height: 150px;
+        bottom: -19px;
+        right: -19px;
+    }
+}
+
+@media (max-width: 1111px) {
+    .navbar .container .logo h1 {
+        font-size: 2rem;
+    }
+
+    .navbar .container .mainmenu ul li a {
+        font-size: 15px;
+        margin: 0 5px;
+    }
+    .heading {
+        font-size: 4rem;
+    }
+    .aboutMe .content .information{
+        flex-direction: column; 
+    }
+    .aboutMe .content .co{
+        margin-top: 0;
+    }
+    .aboutMe .content {
+        width: 45%;
+    }
+    .aboutMe .image {
+        width: 45%;
+    }
+    .heading::after {
+        font-size: 1.3rem;
+    }
+    .aboutMe .content p {
+        font-size: 14px;
+    }
+    .aboutMe .content .co p span {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 833px) {
+    .aboutMe .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutMe .image {
+        width: 100%;
+        max-width: 400px;
+    }
+    .aboutMe .content {
+        margin-top: 50px;
+        width: 90%;
+        text-align: center;
+    }
+    .aboutMe .content .information{
+        flex-direction: row; 
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .container .mainmenu ul {
+        background-color: rgb(0, 0, 0);
+        z-index: -1;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cover-page .container {
+        justify-content: center;
+    }
+
+    .cover-page .container .cover-con {
+        display: flex;
+        align-items: center;
+    }
+
+    .cover-page .container .cover-con h2 {
+        font-size: 20px;
+    }
+
+    .cover-page .container .cover-con h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .cover-page .container .cover-con h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .nav-active {
+        top: 0 !important;
+    }
+
+    .navbar .container .mainmenu ul li {
+        margin-top: 20px;
+    }
+
+    .navbar .container .mainmenu ul li a {
+        font-size: 20px;
+    }
+
+    .toggle {
+        display: block;
+        z-index: 999999999;
+        cursor: pointer;
+    }
+
+    .toggle span {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .toggle:hover span {
+        background-color: #eb2f06;
+    }
+
+    .cover-page .cover-con .self {
+        animation: none;
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+
+    .cover-page {
+        background: rgb(12, 12, 12);
+    }
+}
+
+@media (max-width: 833px) {
+    .heading::after {
+        width: 150px;
+    }
+    .container {
+        padding: 0 30px 0 30px;
+    }
+    .aboutMe .content .information{
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        justify-content: center;
+    }
+
+}
+@media (max-width: 479px) {
+    * .container {
+        padding: 0 20px 0 20px;
+    }
+    .aboutMe .content .information{
+        text-align: center;
+    }
+    .aboutMe .content .information .co p *{
+        display: block;
+    }
+    .aboutMe .content .information .co p{
+        margin-top: 10px;
+    }
+
+}
