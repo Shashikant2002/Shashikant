@@ -310,6 +310,34 @@
         right: 0;
         bottom: -5%;
     }
+    .footer .container p{
+        font-size: 13px;
+    }
+    .footer .priv a{
+        font-size: 13px;
+    }
+    .contact .contactus{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact .contactus .touch{
+        border-right: none;
+        min-width: 371px;
+    }
+    .contact .contactus .form{
+        border-right: none;
+        width: 100%;
+        max-width:400px;
+    }
+    .contact .contactus form{
+       align-items: center;
+    }
+    .contact .contactus .form form input{
+        width: 100%;
+    }
+    .contact .contactus .form form textarea{
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -349,6 +377,9 @@
     }
     .reviews .dots{
         margin-bottom: 20px;
+    }
+    .footer .container{
+        flex-direction: column;
     }
 }
 
