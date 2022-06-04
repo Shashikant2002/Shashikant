@@ -160,9 +160,6 @@
 
 
 @media (max-width: 768px) {
-    .container {
-        /* padding: 0; */
-    }
     .navbar .container .mainmenu ul {
         background-color: rgb(0, 0, 0);
         z-index: -1;
