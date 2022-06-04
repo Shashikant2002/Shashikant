@@ -58,7 +58,7 @@ body {
 }
 
 .cursor-1 {
-    display: none;
+    /* display: none; */
     pointer-events: none;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -70,7 +70,7 @@ body {
 }
 
 .cursor-2 {
-    display: none;
+    /* display: none; */
     pointer-events: none;
     transform: translate(-50%, -50%);
     top: 300px;
