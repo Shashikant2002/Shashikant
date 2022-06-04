@@ -432,9 +432,22 @@
     .reviews .slids .card .textmonial .area{
         flex-direction: column;
     }
+    .blogs .cards .card {
+        cursor: pointer;
+        width: 80%;
+        box-shadow: 0 0 10px 1px #88888899;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 10px 10px; 
+    }
    
 }
 
+@media (max-width:375px) {
+    .blogs .cards .card{
+        width: 100%;
+    }
+}
 @media (max-width:320px) {
     .reviews .slids .controls{
         flex-direction: column;
